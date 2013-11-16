@@ -1,0 +1,68 @@
+﻿<Window x:Class="DiskOfDemiseWPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="700" Width="1000">
+    <Grid>
+        <Image Name = "background" HorizontalAlignment="Left" Margin="0,0,0,0" VerticalAlignment="Top" Width="1000" Height="700" Source="/DiskOfDemiseWPF;component/Resources/Background.jpg" Opacity="0.75"/>
+        <TextBlock Name ="phraseLabel" Text ="Label" HorizontalAlignment="Left" Margin="14,544,-14,0" VerticalAlignment="Top" Width="992" Height="126" FontSize="72"/>
+        <Rectangle HorizontalAlignment="Left" Height="16" Margin="0,523,0,0" Stroke="#00000000" VerticalAlignment="Top" Width="992" Fill="Black"/>
+        <TextBlock Name ="nameLabel" Text="Label" HorizontalAlignment="Left" Margin="13,465,0,0" VerticalAlignment="Top" Width="393" FontSize="36"/>
+        <Rectangle HorizontalAlignment="Left" Height="539" Margin="393,0,0,0" Stroke="#00000000" VerticalAlignment="Top" Width="18" Fill="Black"/>
+        <Image Name = "wheelPicture" HorizontalAlignment="Left" Height="433" Margin="475,43,0,0" VerticalAlignment="Top" Width="478" Source="/DiskOfDemiseWPF;component/Resources/sweetFuckingWheel.png" RenderTransformOrigin="0.5,0.5">
+            <Image.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="0"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Image.RenderTransform>
+        </Image>
+        <Image Name = "kinectColorImage" HorizontalAlignment="Left" Height="331" Margin="10,10,0,0" VerticalAlignment="Top" Width="378"/>
+        <TextBlock Name ="confirmLetter" HorizontalAlignment="Left" Margin="430,24,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" FontSize="18"/>
+        <TextBlock Name ="guessedLetter" HorizontalAlignment="Left" Margin="456,476,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="37" Width="480" FontSize="20"/>
+        <Ellipse Name="headShape" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="73" Stroke="Black" VerticalAlignment="Top" Width="73" Margin="294,311,0,0"/>
+        <Rectangle Name="bodyShape" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="77" Stroke="Black" VerticalAlignment="Top" Width="6" Margin="328,384,0,0"/>
+        <Rectangle Name="rightArmShape" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="7" Margin="341,399,0,0" Stroke="Black" VerticalAlignment="Top" Width="41" RenderTransformOrigin="0.5,0.5">
+            <Rectangle.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-28.33"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Rectangle.RenderTransform>
+        </Rectangle>
+        <Rectangle Name="leftArmShape" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="7" Margin="276,399,0,0" Stroke="Black" VerticalAlignment="Top" Width="41" RenderTransformOrigin="0.5,0.5">
+            <Rectangle.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-151.171"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Rectangle.RenderTransform>
+        </Rectangle>
+        <Rectangle Name="leftLegShape" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="7" Margin="288,482,0,0" Stroke="Black" VerticalAlignment="Top" Width="49" RenderTransformOrigin="0.5,0.5">
+            <Rectangle.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-58.818"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Rectangle.RenderTransform>
+        </Rectangle>
+        <Rectangle Name="rightLegShape" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="7" Margin="324,482,0,0" Stroke="Black" VerticalAlignment="Top" Width="49" RenderTransformOrigin="0.5,0.5">
+            <Rectangle.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-116.009"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Rectangle.RenderTransform>
+        </Rectangle>
+
+    </Grid>
+</Window>
