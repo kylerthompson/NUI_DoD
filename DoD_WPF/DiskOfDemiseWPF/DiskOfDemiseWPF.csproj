@@ -130,6 +130,7 @@
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -139,9 +140,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Resources\wheelPic.png" />
   </ItemGroup>
   <ItemGroup>
     <COMReference Include="KinectManagement">
@@ -156,9 +154,8 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Resources\badassWheel.png" />
-  </ItemGroup>
-  <ItemGroup>
     <Resource Include="Resources\sweetFuckingWheel.png" />
+    <Resource Include="Resources\wheelPic.png" />
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Resources\Background.jpg" />
